@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: service-ucenter
+  cloud:
+    nacos:
+      config:
+        server-addr:
+        group: ONLINE_EDUCATION
+        namespace:
+        file-extension: yaml
+        extension-configs:
+          - data-id: Database.yml
+            group: ONLINE_EDUCATION
+            refresh: true
+          - data-id: Redis.yml
+            group: ONLINE_EDUCATION
+            refresh: true
+          - data-id: Nacos.yml
+            group: ONLINE_EDUCATION
+            refresh: true
+          - data-id: Sentinel.yml
+            group: ONLINE_EDUCATION
+            refresh: true

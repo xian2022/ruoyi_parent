@@ -1,0 +1,1 @@
+2022-07-19 12:07:17.468 [http-nio-8004-exec-5] ERROR c.x.s.h.exceptionhandler.GlobalExceptionHandler - Redis exception; nested exception is io.lettuce.core.RedisException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。

@@ -1,0 +1,4 @@
+2022-07-17 23:02:36.892 [http-nio-8007-exec-10] ERROR c.x.s.h.exceptionhandler.GlobalExceptionHandler - Redis exception; nested exception is io.lettuce.core.RedisException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2022-07-17 23:09:27.163 [http-nio-8007-exec-5] ERROR c.x.s.h.exceptionhandler.GlobalExceptionHandler - Redis exception; nested exception is io.lettuce.core.RedisException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2022-07-17 23:25:19.027 [http-nio-8007-exec-8] ERROR c.x.s.h.exceptionhandler.GlobalExceptionHandler - Redis exception; nested exception is io.lettuce.core.RedisException: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+2022-07-17 23:32:59.924 [http-nio-8007-exec-2] ERROR c.x.s.h.exceptionhandler.GlobalExceptionHandler - Request method 'POST' not supported

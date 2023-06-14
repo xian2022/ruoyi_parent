@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: service-sms
+  cloud:
+    nacos:
+      config:
+        server-addr:
+        group: ONLINE_EDUCATION
+        namespace:
+        file-extension: yaml
+        extension-configs:
+          - data-id: Redis.yml
+            group: ONLINE_EDUCATION
+            refresh: true
+          - data-id: Nacos.yml
+            group: ONLINE_EDUCATION
+            refresh: true
+          - data-id: Sentinel.yml
+            group: ONLINE_EDUCATION
+            refresh: true

@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: service-edu
+  cloud:
+    nacos:
+      discovery:
+        server-addr: *******:8848
+      config:
+        server-addr:
+        group: ONLINE_EDUCATION
+        namespace: 57059aae-a647-4afe-b785-51f7c4c54874
+        file-extension: yaml
+        extension-configs:
+          - data-id: Database.yml
+            group: ONLINE_EDUCATION
+            refresh: true
+          - data-id: Redis.yml
+            group: ONLINE_EDUCATION
+            refresh: true
+          - data-id: Nacos.yml
+            group: ONLINE_EDUCATION
+            refresh: true
+          - data-id: Sentinel.yml
+            group: ONLINE_EDUCATION
+            refresh: true

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xian.eduucenter.mapper.MemberMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xian.eduucenter.entities.Member">
+        <id column="id" property="id" />
+        <result column="openid" property="openid" />
+        <result column="mobile" property="mobile" />
+        <result column="password" property="password" />
+        <result column="nickname" property="nickname" />
+        <result column="sex" property="sex" />
+        <result column="age" property="age" />
+        <result column="avatar" property="avatar" />
+        <result column="sign" property="sign" />
+        <result column="is_disabled" property="isDisabled" />
+        <result column="is_deleted" property="isDeleted" />
+        <result column="gmt_create" property="gmtCreate" />
+        <result column="gmt_modified" property="gmtModified" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, openid, mobile, password, nickname, sex, age, avatar, sign, is_disabled, is_deleted, gmt_create, gmt_modified
+    </sql>
+    <select id="countRegister" parameterType="String" resultType="java.lang.Integer">
+        SELECT COUNT(1) FROM ucenter_member uc WHERE DATE(UC.gmt_create) = #{day}
+    </select>
+
+</mapper>

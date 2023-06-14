@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xian.eduservice.mapper.CourseMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.xian.eduservice.entities.Course">
+        <id column="id" property="id" />
+        <result column="teacher_id" property="teacherId" />
+        <result column="subject_id" property="subjectId" />
+        <result column="subject_parent_id" property="subjectParentId" />
+        <result column="title" property="title" />
+        <result column="price" property="price" />
+        <result column="lesson_num" property="lessonNum" />
+        <result column="cover" property="cover" />
+        <result column="buy_count" property="buyCount" />
+        <result column="view_count" property="viewCount" />
+        <result column="version" property="version" />
+        <result column="status" property="status" />
+        <result column="is_deleted" property="isDeleted" />
+        <result column="gmt_create" property="gmtCreate" />
+        <result column="gmt_modified" property="gmtModified" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, teacher_id, subject_id, subject_parent_id, title, price, lesson_num, cover, buy_count, view_count, version, status, is_deleted, gmt_create, gmt_modified
+    </sql>
+
+</mapper>

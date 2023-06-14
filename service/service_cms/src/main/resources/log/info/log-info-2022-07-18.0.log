@@ -1,0 +1,212 @@
+2022-07-18 00:22:00.187 [lettuce-eventExecutorLoop-7-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /121.40.219.144:6379
+2022-07-18 00:22:00.274 [lettuce-nioEventLoop-9-2] INFO  io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 121.40.219.144:6379
+2022-07-18 00:28:03.384 [lettuce-eventExecutorLoop-7-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /121.40.219.144:6379
+2022-07-18 00:28:03.482 [lettuce-nioEventLoop-9-3] INFO  io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 121.40.219.144:6379
+2022-07-18 00:47:18.465 [restartedMain] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-service-cms-dev.yaml,ONLINE_EDUCATION'}, BootstrapPropertySource {name='bootstrapProperties-service-cms.yaml,ONLINE_EDUCATION'}, BootstrapPropertySource {name='bootstrapProperties-service-cms,ONLINE_EDUCATION'}]
+2022-07-18 00:47:18.480 [restartedMain] INFO  com.xian.educms.CmsApplication - The following 1 profile is active: "dev"
+2022-07-18 00:47:20.906 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-18 00:47:20.912 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-18 00:47:20.965 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2022-07-18 00:47:21.877 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=aebdccc1-0f46-30cd-8f9a-c8c5330bb044
+2022-07-18 00:47:22.802 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 00:47:22.815 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 00:47:22.818 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$471/2141721113] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 00:47:22.842 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 00:47:22.896 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 00:47:22.924 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 00:47:24.443 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2022-07-18 00:47:24.445 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2022-07-18 00:47:24.446 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-07-18 00:47:24.447 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-18 00:47:24.459 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-07-18 00:47:24.478 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2022-07-18 00:47:24.480 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-18 00:47:24.480 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-18 00:47:24.941 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-07-18 00:47:24.942 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6431 ms
+2022-07-18 00:47:37.776 [restartedMain] INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2022-07-18 00:47:38.748 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-07-18 00:49:05.641 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2022-07-18 00:49:05.715 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2022-07-18 00:49:05.848 [restartedMain] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-cms 192.168.83.1:8004 register finished
+2022-07-18 00:49:14.386 [restartedMain] INFO  com.xian.educms.CmsApplication - Started CmsApplication in 125.774 seconds (JVM running for 129.679)
+2022-07-18 00:49:14.404 [restartedMain] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=service-cms.yaml, group=ONLINE_EDUCATION
+2022-07-18 00:49:14.407 [restartedMain] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=service-cms-dev.yaml, group=ONLINE_EDUCATION
+2022-07-18 00:49:14.412 [restartedMain] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=service-cms, group=ONLINE_EDUCATION
+2022-07-18 01:14:09.742 [http-nio-8004-exec-9] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-18 01:14:09.742 [http-nio-8004-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-18 01:14:09.746 [http-nio-8004-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2022-07-18 01:14:11.615 [http-nio-8004-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-18 01:14:12.397 [http-nio-8004-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-18 01:27:24.274 [lettuce-eventExecutorLoop-1-6] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /121.40.219.144:6379
+2022-07-18 01:27:24.362 [lettuce-nioEventLoop-4-2] INFO  io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 121.40.219.144:6379
+2022-07-18 16:12:36.102 [restartedMain] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-service-cms-dev.yaml,ONLINE_EDUCATION'}, BootstrapPropertySource {name='bootstrapProperties-service-cms.yaml,ONLINE_EDUCATION'}, BootstrapPropertySource {name='bootstrapProperties-service-cms,ONLINE_EDUCATION'}]
+2022-07-18 16:12:36.114 [restartedMain] INFO  com.xian.educms.CmsApplication - The following 1 profile is active: "dev"
+2022-07-18 16:12:38.208 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-18 16:12:38.216 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-18 16:12:38.283 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+2022-07-18 16:12:38.850 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=aebdccc1-0f46-30cd-8f9a-c8c5330bb044
+2022-07-18 16:12:39.356 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:12:39.364 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:12:39.371 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$471/378211058] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:12:39.380 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:12:39.391 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:12:39.400 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:12:40.446 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2022-07-18 16:12:40.448 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2022-07-18 16:12:40.449 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-07-18 16:12:40.449 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-18 16:12:40.458 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-07-18 16:12:40.475 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2022-07-18 16:12:40.478 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-18 16:12:40.478 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-18 16:12:40.764 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-07-18 16:12:40.765 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4618 ms
+2022-07-18 16:12:46.822 [restartedMain] INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2022-07-18 16:12:47.939 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-07-18 16:12:55.096 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2022-07-18 16:12:55.237 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2022-07-18 16:12:55.315 [restartedMain] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-cms 192.168.83.1:8004 register finished
+2022-07-18 16:12:58.973 [restartedMain] INFO  com.xian.educms.CmsApplication - Started CmsApplication in 28.224 seconds (JVM running for 30.415)
+2022-07-18 16:12:58.986 [restartedMain] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=service-cms.yaml, group=ONLINE_EDUCATION
+2022-07-18 16:12:58.989 [restartedMain] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=service-cms-dev.yaml, group=ONLINE_EDUCATION
+2022-07-18 16:12:58.991 [restartedMain] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=service-cms, group=ONLINE_EDUCATION
+2022-07-18 16:16:52.088 [http-nio-8004-exec-9] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-18 16:16:52.089 [http-nio-8004-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-18 16:16:52.092 [http-nio-8004-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2022-07-18 16:16:54.308 [http-nio-8004-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-18 16:16:55.145 [http-nio-8004-exec-9] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-18 16:24:17.579 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /121.40.219.144:6379
+2022-07-18 16:24:17.662 [lettuce-nioEventLoop-4-2] INFO  io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 121.40.219.144:6379
+2022-07-18 16:27:11.442 [com.alibaba.nacos.client.Worker.longPolling.fixed-121.40.219.144_8848-57059aae-a647-4afe-b785-51f7c4c54874] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-18 16:27:11.621 [com.alibaba.nacos.client.Worker.longPolling.fixed-121.40.219.144_8848-57059aae-a647-4afe-b785-51f7c4c54874] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-service-cms-dev.yaml,ONLINE_EDUCATION'}, BootstrapPropertySource {name='bootstrapProperties-service-cms.yaml,ONLINE_EDUCATION'}, BootstrapPropertySource {name='bootstrapProperties-service-cms,ONLINE_EDUCATION'}]
+2022-07-18 16:27:11.625 [com.alibaba.nacos.client.Worker.longPolling.fixed-121.40.219.144_8848-57059aae-a647-4afe-b785-51f7c4c54874] INFO  org.springframework.boot.SpringApplication - The following 1 profile is active: "dev"
+2022-07-18 16:27:11.635 [com.alibaba.nacos.client.Worker.longPolling.fixed-121.40.219.144_8848-57059aae-a647-4afe-b785-51f7c4c54874] INFO  org.springframework.boot.SpringApplication - Started application in 1.265 seconds (JVM running for 883.077)
+2022-07-18 16:27:11.698 [com.alibaba.nacos.client.Worker.longPolling.fixed-121.40.219.144_8848-57059aae-a647-4afe-b785-51f7c4c54874] INFO  o.s.cloud.endpoint.event.RefreshEventListener - Refresh keys changed: [spring.redis.lettuce.pool.max-active, spring.redis.jedis.pool.max-active]
+2022-07-18 16:28:13.906 [restartedMain] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-service-cms-dev.yaml,ONLINE_EDUCATION'}, BootstrapPropertySource {name='bootstrapProperties-service-cms.yaml,ONLINE_EDUCATION'}, BootstrapPropertySource {name='bootstrapProperties-service-cms,ONLINE_EDUCATION'}]
+2022-07-18 16:28:13.918 [restartedMain] INFO  com.xian.educms.CmsApplication - The following 1 profile is active: "dev"
+2022-07-18 16:28:16.654 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-18 16:28:16.659 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-18 16:28:16.711 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 0 Redis repository interfaces.
+2022-07-18 16:28:17.437 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=aebdccc1-0f46-30cd-8f9a-c8c5330bb044
+2022-07-18 16:28:18.316 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:28:18.328 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:28:18.331 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$471/228293026] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:28:18.341 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:28:18.359 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:28:18.372 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:28:19.977 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2022-07-18 16:28:19.979 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2022-07-18 16:28:19.980 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-07-18 16:28:19.981 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-18 16:28:19.992 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-07-18 16:28:20.012 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2022-07-18 16:28:20.014 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-18 16:28:20.014 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-18 16:28:20.428 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-07-18 16:28:20.429 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 6480 ms
+2022-07-18 16:28:30.096 [restartedMain] INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2022-07-18 16:28:41.930 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2022-07-18 16:28:41.990 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2022-07-18 16:28:42.082 [restartedMain] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-cms 192.168.83.1:8004 register finished
+2022-07-18 16:28:49.157 [restartedMain] INFO  com.xian.educms.CmsApplication - Started CmsApplication in 44.222 seconds (JVM running for 48.178)
+2022-07-18 16:28:49.193 [restartedMain] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=service-cms.yaml, group=ONLINE_EDUCATION
+2022-07-18 16:28:49.199 [restartedMain] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=service-cms-dev.yaml, group=ONLINE_EDUCATION
+2022-07-18 16:28:49.202 [restartedMain] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=service-cms, group=ONLINE_EDUCATION
+2022-07-18 16:31:46.710 [http-nio-8004-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-18 16:31:46.711 [http-nio-8004-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-18 16:31:46.714 [http-nio-8004-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-07-18 16:31:49.027 [http-nio-8004-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-18 16:31:50.699 [http-nio-8004-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-18 16:48:58.320 [Thread-2] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-07-18 16:48:58.407 [Thread-2] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-07-18 16:49:05.224 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-07-18 16:49:05.263 [Thread-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-07-18 16:49:17.607 [restartedMain] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-service-cms-dev.yaml,ONLINE_EDUCATION'}, BootstrapPropertySource {name='bootstrapProperties-service-cms.yaml,ONLINE_EDUCATION'}, BootstrapPropertySource {name='bootstrapProperties-service-cms,ONLINE_EDUCATION'}]
+2022-07-18 16:49:17.614 [restartedMain] INFO  com.xian.educms.CmsApplication - The following 1 profile is active: "dev"
+2022-07-18 16:49:19.442 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-18 16:49:19.443 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-18 16:49:19.451 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2022-07-18 16:49:19.682 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=aebdccc1-0f46-30cd-8f9a-c8c5330bb044
+2022-07-18 16:49:19.860 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:49:19.864 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:49:19.865 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$471/228293026] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:49:19.897 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:49:19.909 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:49:19.916 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:49:20.483 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2022-07-18 16:49:20.484 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2022-07-18 16:49:20.484 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-07-18 16:49:20.485 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-18 16:49:20.485 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-07-18 16:49:20.487 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2022-07-18 16:49:20.488 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-18 16:49:20.488 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-18 16:49:20.595 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-07-18 16:49:20.596 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2973 ms
+2022-07-18 16:49:29.778 [restartedMain] INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2022-07-18 16:49:47.437 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-18 16:49:54.933 [restartedMain] INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration - Located property source: [BootstrapPropertySource {name='bootstrapProperties-service-cms-dev.yaml,ONLINE_EDUCATION'}, BootstrapPropertySource {name='bootstrapProperties-service-cms.yaml,ONLINE_EDUCATION'}, BootstrapPropertySource {name='bootstrapProperties-service-cms,ONLINE_EDUCATION'}]
+2022-07-18 16:49:54.938 [restartedMain] INFO  com.xian.educms.CmsApplication - The following 1 profile is active: "dev"
+2022-07-18 16:49:56.339 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-18 16:49:56.339 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-18 16:49:56.353 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2022-07-18 16:49:56.624 [restartedMain] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=aebdccc1-0f46-30cd-8f9a-c8c5330bb044
+2022-07-18 16:49:56.761 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:49:56.765 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:49:56.766 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$471/228293026] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:49:56.783 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:49:56.795 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.sentinel-com.alibaba.cloud.sentinel.SentinelProperties' of type [com.alibaba.cloud.sentinel.SentinelProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:49:56.800 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration' of type [com.alibaba.cloud.sentinel.custom.SentinelAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-18 16:49:57.346 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8004 (http)
+2022-07-18 16:49:57.346 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.30] using APR version [1.7.0].
+2022-07-18 16:49:57.347 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-07-18 16:49:57.347 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-07-18 16:49:57.354 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1k  25 Mar 2021]
+2022-07-18 16:49:57.357 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8004"]
+2022-07-18 16:49:57.359 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-18 16:49:57.359 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-07-18 16:49:57.497 [restartedMain] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-07-18 16:49:57.497 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2551 ms
+2022-07-18 16:50:06.933 [restartedMain] INFO  c.alibaba.cloud.sentinel.SentinelWebMvcConfigurer - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2022-07-18 16:50:19.442 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8004"]
+2022-07-18 16:50:19.447 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8004 (http) with context path ''
+2022-07-18 16:50:19.705 [restartedMain] INFO  c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, DEFAULT_GROUP service-cms 192.168.83.1:8004 register finished
+2022-07-18 16:50:24.183 [restartedMain] INFO  com.xian.educms.CmsApplication - Started CmsApplication in 44.504 seconds (JVM running for 1343.203)
+2022-07-18 16:50:24.188 [restartedMain] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=service-cms.yaml, group=ONLINE_EDUCATION
+2022-07-18 16:50:24.189 [restartedMain] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=service-cms-dev.yaml, group=ONLINE_EDUCATION
+2022-07-18 16:50:24.189 [restartedMain] INFO  c.a.cloud.nacos.refresh.NacosContextRefresher - listening config: dataId=service-cms, group=ONLINE_EDUCATION
+2022-07-18 16:50:24.192 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2022-07-18 17:11:04.560 [http-nio-8004-exec-10] INFO  o.a.c.c.ContainerBase.[Tomcat-1].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-18 17:11:04.561 [http-nio-8004-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-18 17:11:04.563 [http-nio-8004-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-07-18 17:11:04.703 [http-nio-8004-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2022-07-18 17:11:04.734 [http-nio-8004-exec-10] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2022-07-18 17:24:11.470 [lettuce-nioEventLoop-9-1] INFO  io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:722)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:658)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:584)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:496)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2022-07-18 17:24:11.649 [lettuce-eventExecutorLoop-7-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /121.40.219.144:6379
+2022-07-18 17:24:16.731 [lettuce-eventExecutorLoop-7-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 121.40.219.144:6379
+2022-07-18 17:24:29.129 [lettuce-eventExecutorLoop-7-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 121.40.219.144:6379
+2022-07-18 17:24:55.524 [lettuce-eventExecutorLoop-7-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 121.40.219.144:6379
+2022-07-18 17:25:35.625 [lettuce-eventExecutorLoop-7-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 121.40.219.144:6379
+2022-07-18 17:26:05.730 [lettuce-eventExecutorLoop-7-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 121.40.219.144:6379
+2022-07-18 17:26:35.825 [lettuce-eventExecutorLoop-7-5] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 121.40.219.144:6379
+2022-07-18 17:27:15.925 [lettuce-eventExecutorLoop-7-7] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 121.40.219.144:6379
+2022-07-18 17:27:16.015 [lettuce-nioEventLoop-9-4] INFO  io.lettuce.core.protocol.ReconnectionHandler - Reconnected to 121.40.219.144:6379
